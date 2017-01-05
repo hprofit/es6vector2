@@ -1,0 +1,21 @@
+{
+  "name": "es6vector2",
+  "version": "1.0.0",
+  "description": "Vector2 in ES6 Javascript.",
+  "main": "vector2.js",
+  "dependencies": {
+    "babel-loader": "6.2.10"
+  },
+  "devDependencies": {
+    "babel-core": "6.21.0",
+    "babel-loader": "6.2.10",
+    "webpack": "1.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
+  },
+  "author": "Holden Profit <holdenprofit@gmail.com> (https://github.com/hprofit/)",
+  "license": "ISC"
+}
