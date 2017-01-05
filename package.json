@@ -4,7 +4,6 @@
   "description": "Vector2 in ES6 Javascript.",
   "main": "vector2.js",
   "dependencies": {
-    "babel-loader": "6.2.10"
   },
   "devDependencies": {
     "babel-core": "6.21.0",
@@ -18,5 +17,18 @@
     "watch": "webpack --watch"
   },
   "author": "Holden Profit <holdenprofit@gmail.com> (https://github.com/hprofit/)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hprofit/es6vector2.git"
+  },
+  "keywords": [
+    "vector2",
+    "vector2d",
+    "es6"
+  ],
+  "bugs": {
+    "url": "https://github.com/hprofit/es6vector2/issues"
+  },
+  "homepage": "https://github.com/hprofit/es6vector2#readme"
 }
