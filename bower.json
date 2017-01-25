@@ -1,0 +1,22 @@
+{
+  "name": "es6vector2",
+  "description": "Vector2 in ES6 Javascript.",
+  "main": "es6/vector2.es6.js",
+  "authors": [
+    "Holden Profit <holdenprofit@gmail.com> (https://github.com/hprofit/)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "vector2",
+    "vector2d",
+    "es6"
+  ],
+  "homepage": "https://github.com/hprofit/es6vector2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

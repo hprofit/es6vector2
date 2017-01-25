@@ -1,0 +1,11 @@
+{
+    "es6": true,
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+        }
+    },
+    "rules": {
+        "semi": 2
+    }
+}

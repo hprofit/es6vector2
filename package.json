@@ -3,16 +3,27 @@
   "version": "1.0.0",
   "description": "Vector2 in ES6 Javascript.",
   "main": "vector2.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "6.21.0",
     "babel-loader": "6.2.10",
+    "babel-preset-env": "^1.1.7",
     "babel-preset-es2015": "6.18.0",
+    "eslint": "3.12.2",
+    "istanbul": "0.4.5",
+    "jasmine-es6": "0.4.0",
+    "karma": "1.3.0",
+    "karma-babel-preprocessor": "6.0.1",
+    "karma-coverage-es6": "0.2.7",
+    "karma-jasmine": "1.1.0",
+    "karma-phantomjs-launcher": "1.0.2",
+    "karma-webpack": "1.8.1",
     "webpack": "1.14.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && npm run test-karma",
+    "test-karma": "karma start",
+    "test-eslint": "eslint --ignore-pattern fixtures && jasmine",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --watch"
   },
